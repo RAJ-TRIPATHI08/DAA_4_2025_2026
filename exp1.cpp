@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -50,4 +49,11 @@ int main()
     complexRec(8);
     cout << ops << endl;
     return 0;
+
 }
+
+
+// for depth of the recursion tree
+// formula is log2​(n)  it depends on the input 
+// depth of this algo is that how many times we can divide the input untill it reaches n <= 2
+// for my input it is log2​(8) = 3 
